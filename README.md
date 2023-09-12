@@ -11,7 +11,7 @@ Or here for testnet: https://supertestnet.github.io/swap-service/testnet.html
 
 [![](https://supertestnet.github.io/swap-service/swap-service-screenshot-with-youtube-logo.png)](https://www.youtube.com/watch?v=mVWufwzQ_RI)
 
-# Instructions for yield chasers
+# Instructions for Yield Chasers
 
 [Click here](#installation) if you have a lightning node and want to use this tool to earn some money and accrue yield on your bitcoin
 
@@ -25,7 +25,7 @@ Submarine swaps are an important feature of the lightning network. They allow li
 
 However, there are not very many submarine swap providers. Sometimes I wonder if the ones who exist are overcharging, and I also just think it would be cool if anyone could profit by offering submarine swaps easily from their own lightning node. With lots of participants, costs may be driven down close to zero.
 
-# How does swap service work?
+# How does Swap Service work?
 
 Anyone who runs an LND lightning node can run swap service on their computer and hook it up to their node. This makes them a yield chaser. As a yield chaser, you can set a few parameters like how many sats you are willing to swap, how much you have on the base layer, how much you have on lightning, and what fee you'll charge for swaps. When you're ready, swap service will take your settings and display them as an offer on an open orderbook I created on nostr. Other folks can visit a simple website to view everyone's offers. They can also select an offer and initiate a swap. During the course of the swap, they will pay the yield chaser they selected a fee to do a submarine swap with them. The yield chaser gets to keep the fee.
 
